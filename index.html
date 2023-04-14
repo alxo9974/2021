@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>miae's Portfolio</title>
+
+    <!-- css연결 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- script 연결 -->
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
+    <script src="./script/slick.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script/main.js"></script>
+</head>
+
+<body>
+    <!--ham-->
+    <div class="ham">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- sidemenu -->
+    <div class="sidemenu">
+        <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#publishing">Publishing</a></li>
+            <li><a href="#design">Design
+            </a></li>
+            <li><a href="#about">About
+            </a></li>
+            <li><a href="#footer">Footer</a></li>
+        </ul>
+    </div>
+    <!-- header -->
+    <header>
+        <div class="logo"><a href="#">Miae's Portfolio</a></div>
+    </header>
+    <!-- //header -->
+
+    <!-- main -->
+    <main id="fullpage">
+        <!-- intro -->
+        <section class="section" id="intro">
+            <h2 class="ir_su">intro</h2>
+            <div class="text">
+                <p class="start">저는</p>
+                <ul>
+                    <li>배우는 것을 두려워 하지 않는</li>
+                    <li>성실하고 노력하는</li>
+                    <li>소통을 중요하게 생각하는</li>
+                </ul>
+                <p class="end">웹 디자이너 & 퍼블리셔 입니다</p>
+        </section>
+        <!-- //intro -->
+
+        <!-- publishing-->
+        <section class="section" id="publishing">
+            <h2 class="ir_su">Pulishing</h2>
+            <div class="slide" data-anchor="slide1">
+                <img src="./images/volvo.jpg" alt="볼보사이트">
+                <div class="slide_des">
+                    <strong>Volvo 리뉴얼사이트 (반응형)</strong>
+                    <p>볼보사이트를 직접 디자인하고 퍼블리싱하였습니다.</p>
+                    <p>Use : Html, Css, Jquery</p>
+                    <p>Plugin : swiper</p>
+                    <a href="http://alxo9974.dothome.co.kr/volvo_korea/" class="go_btn">Go Site</a>
+                </div>
+            </div>
+            <div class="slide" data-anchor="slide2">
+                <img src="./images/seolrong.jpg" alt="설롱디저트">
+                <div class="slide_des">
+                    <strong>설롱디저트 사업자 홈페이지</strong>
+                    <p>cafe24템플릿을 사용하여 만든 홈페이지 입니다.</p>
+                    <p>기여도 100%</p>
+                    <a href="http://www.sldessert.com" class="go_btn">Go Site</a>
+                </div>
+            </div>
+            <div class="slide" data-anchor="slide3">
+                <img src="./images/hera.jpg" alt="헤라">
+                <div class="slide_des">
+                    <strong>Hera 리뉴얼 사이트 (고정형)</strong>
+                    <p>헤라사이트를 직접 디자인하고 퍼블리싱하였습니다.</p>
+                    <p>Use : Html, Css, Jquery</p>
+                    <p>Plugin : slick</p>
+                    <a href="http://alxo9974.dothome.co.kr/hera%20(2)/" class="go_btn">Go Site</a>
+                </div>
+            </div>
+            
+        </section>
+        <!-- //publishing-->
+        <!--modal-->
+        <!-- design-->
+        <section class="section" id="design">
+            <h2>Design</h2>
+            
+            <div class="modal_wrap"></div>
+            <div class="modal modal1">
+                <img src="./images/ilust_img.jpg" alt="">
+                <div class="close">X</div>
+            </div>
+
+            <div class="modal modal2">
+                <img src="./images/poster_img.jpg" alt="">
+                <div class="close">X</div>
+            </div>
+
+            <div class="modal modal3">
+                <img src="./images/detail_img.jpg" alt="">
+                <div class="close">X</div>
+            </div>
+
+            <div class="modal modal4">
+                <img src="./images/logo_img.jpg" alt="">
+                <div class="close">X</div>
+            </div>
+
+            
+            
+
+            
+            <ul class="design">
+                <li class="ilust">
+                    <a href="#"><img src="./images/ilust.jpg" alt="일러스트">
+                    </a>
+                    <span>ilust</span>
+                </li>
+                <li class="poster">
+                    <a href="#">
+                        <img src="./images/poster.jpg" alt="포스터">
+                    </a>
+                    <span>poster</span>
+                </li>
+                <li class="detail">
+                    <a href="#">
+                        <img src="./images/detail.jpg" alt="디테일">
+                    </a>
+                    <span>detail</span>
+                </li>
+                <li class="de_logo">
+                    <a href="#">
+                        <img src="./images/logo.jpg" alt="로고">
+                    </a>
+                    <span>logo</span>
+                </li>
+            </ul>
+        </section>
+        <!-- //design-->
+
+        <!--about-->
+        <section class="section" id="about">
+            <div class="about">
+                <h3>about me</h3>
+                <ul class="miae">
+                    <li><span>name :</span> 권미애</li>
+                    <li><span>age :</span> 25세 (1997年)</li>
+                    <li><span>education :</span> 2014 ~ 2016 화원고등학교 졸업</br>
+                        2021.01 ~ 2021.06 SBS컴퓨터아트학원 UI/UX 웹퍼블리셔 과정 수료
+                    </li>
+                </ul>
+                <h3>available</h3>
+                <ul class="available">
+                    <li><img src="./images/photoshop.png" alt="포토샵"></li>
+                    <li><img src="./images/illustration.png" alt="일러스트"></li>
+                    <li><img src="./images/html5.png" alt="html"></li>
+                    <li><img src="./images/css3.png" alt="css"></li>
+                    <li><img src="./images/javascript.png" alt="javascript"></li>
+                    <li><img src="./images/jquery.png" alt="jquery"></li>
+                </ul>
+                <h3>license</h3>
+                <ul class="license">
+                    <li><span>2021.05 </span> 웹디자인기능사</li>
+                    <li><span>2021.04 </span> 컴퓨터 그래픽스 운용기능사 (필기)</li>
+                    <li><span>2017.07 </span> 컴퓨터 활용능력 2급</li>
+                    <li><span>2015.10 </span> ITQ한글,파워포인트,엑셀</li>
+                </ul>
+            </div>
+        </section>
+        <!-- //about -->
+
+
+        <!-- footer -->
+        <section class="section fp-auto-height" id="footer">
+            <h2 class="ir_su">footer</h2>
+            <br>
+            <div>본 사이트는 크롬에 최적화 되어 만들어 졌습니다.</div>
+            <div>Copyright 2021. miae All pictures cannot be copied without permission.</div>
+            <br>
+        </section>
+        <!-- //footer -->
+    </main>
+    <!-- //main -->
+</body>
+
+</html>
